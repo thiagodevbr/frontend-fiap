@@ -1,0 +1,29 @@
+Modos de Renderização
+Standards Mode (Modo Padrão): 
+  Neste modo, o navegador tenta seguir o padrão W3C o mais próximo possível. 
+  Elementos CSS e funcionalidades do DOM são renderizados de acordo com as especificações. 
+  HTML5 e HTML 4.01 Strict frequentemente levam o navegador a este modo.
+
+Almost Standards Mode (Quase Modo Padrão): 
+  Este é muito semelhante ao Standards Mode, mas com pequenas diferenças, especialmente no 
+  tratamento de imagens dentro de tabelas. É frequentemente ativado com a versão 
+  Transitional do HTML 4.01 ou XHTML 1.0.
+
+Quirks Mode (Modo de Exceções): 
+  Neste modo, o navegador tenta ser compatível com versões antigas de páginas web que não 
+  seguem os padrões atuais. Muitas funcionalidades modernas do CSS e do DOM podem não 
+  funcionar corretamente neste modo.
+
+
+Diferenças entre Navegadores
+Consistência Cross-browser: Usar um DOCTYPE moderno, como o HTML5, geralmente 
+resulta em uma renderização mais consistente em todos os navegadores modernos.
+
+Recursos e Funcionalidades: Alguns DOCTYPEs mais antigos podem não suportar recursos 
+mais modernos de HTML, CSS ou JavaScript. Por exemplo, se você estiver usando um DOCTYPE HTML 4.01, talvez não consiga utilizar recursos HTML5 como <canvas> ou <video> de maneira confiável.
+
+Desempenho: Navegadores modernos são otimizados para lidar com páginas web modernas,
+então usar um DOCTYPE atual pode levar a um desempenho de página mais eficiente.
+
+Correções e Patches: Navegadores mais antigos podem não interpretar DOCTYPEs modernos
+corretamente, o que pode exigir hacks ou patches de compatibilidade.
