@@ -5,46 +5,52 @@
 4. Adicione as tags meta de open graph.
 5. Corrija eventuais tags/propriedades que estiverem faltando.
  -->
-<html>
-
-<head>
-  <title>Exercício de Correção Semântica</title>
-</head>
-
-<body>
-
-  <div id="main-container">
-
-    <main id="top-section">
-      <header>
-        <p id="logo">Meu Site</p>
-        <div>
-          <span class="nav-item">Home</span>
-          <span class="nav-item">Sobre</span>
-          <span class="nav-item">Contato</span>
-        </div>
-      </header>
-    </main>
-
-    <header id="main-content">
-      <main>
-        <div id="article-section">
-          <header class="article">
-            <div class="title">Artigo 1</div>
-            <div class="content">Este é o conteúdo do artigo 1.</div>
-          </header>
-        </div>
-      </main>
-    </header>
-
-    <div id="bottom-section">
-      <main>
-        <p id="footer-text">Copyright 2023</p>
-      </main>
-    </div>
-
-  </div>
-
-</body>
-
-</html>
+ <!-- Adicionado para mostrar o tipo de arquivo! -->
+ <!DOCTYPE html>
+ <html>
+ 
+ <head>
+   <!-- Adicionado o charset do documento -->
+   <meta charset="UTF-8">
+   <title>Exercício de Correção Semântica</title>
+ </head>
+ 
+ <body>
+   <!-- Essa é a div está sendo utilizada para formatar todo o conteúdo -->
+   <div id="main-container">
+     <!-- Tag Header para delimitar o cabeçalho -->
+     <header id="top-section">
+       <div> <!-- Div para definir a posição dos elementos -->
+         <div id="logo">Meu Site</div> <!-- Alterado de P para DIV - Logo do site -->
+         <nav>
+           <span class="nav-item">Home</span>
+           <span class="nav-item">Sobre</span>
+           <span class="nav-item">Contato</span>
+         </nav>
+       </div>
+     </header>
+ 
+     <!-- Depois do Header e antes do Footer a tag MAIN - Mostrando o conteúdo principal -->
+     <main id="main-content">
+       <div>
+         <article id="article-section">
+           <header class="article">
+             <div class="title">Artigo 1</div>
+             <div class="content">Este é o conteúdo do artigo 1.</div>
+           </header>
+         </article>
+       </div>
+     </main>
+ 
+     <footer id="bottom-section">
+       <div>
+         <p id="footer-text">Copyright 2023</p>
+       </div>
+     </footer>
+ 
+   </div>
+ 
+ </body>
+ </html>
+ 
+ <!-- Finalizado todos os exercícios -->
