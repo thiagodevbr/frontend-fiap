@@ -1,46 +1,55 @@
 <!-- 
 Adicione as tags <meta> necessarias;
-Substitua as tags <div> por elementos HTML semânticos adequados, como <header>, <nav>, <main>, <article>, <section>, <aside> e <footer>;
+Substitua as tags <div> por elementos HTML semânticos adequados, como 
+  <header>, 
+    <nav>, 
+  <main>, 
+  <article>, 
+    <section>, 
+      <aside> e 
+  <footer>;
 Mantenha o conteúdo dentro de cada <div> inalterado.
 Adicione comentários explicando por que você escolheu cada tag semântica em particular.  
 -->
 
 <!DOCTYPE html>
 <html>
-
 <head>
   <title>Exercício de Correção de Divs</title>
 </head>
 
 <body>
-
+  <!-- A tag div engloba todo o conteúdo principal do site! -->
   <div id="page-container">
-
-    <div id="top-section">
+    <!-- A Tag Header delimita aonde será o cabeçalho do site -->
+    <header id="top-section">
       <div id="logo">Meu Site</div>
-      <div id="navigation">
+      <!-- O nav está indicando aonde é a area de navegação -->
+      <nav id="navigation">
         <div class="nav-item">Home</div>
         <div class="nav-item">Sobre</div>
         <div class="nav-item">Contato</div>
-      </div>
-    </div>
+      </nav>
+    </header>
 
-    <div id="main-content">
-      <div id="left-column">
+    <!-- A tag main está mostrando onde está o conteúdo do site -->
+    <main id="main-content">
+      <article id="left-column">
         <div class="article">
           <div class="title">Artigo 1</div>
           <div class="content">Este é o conteúdo do artigo 1.</div>
         </div>
-      </div>
-      <div id="right-column">
+      </article>
+      <aside id="right-column">
         <div class="sidebar-item">Item 1</div>
         <div class="sidebar-item">Item 2</div>
-      </div>
-    </div>
+      </aside>
+    </main>
 
-    <div id="bottom-section">
+    <!-- Footer :) -->
+    <footer id="bottom-section">
       <div id="footer-text">Copyright 2023</div>
-    </div>
+    </footer>
 
   </div>
 
