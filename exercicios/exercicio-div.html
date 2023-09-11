@@ -47,3 +47,58 @@ Adicione comentários explicando por que você escolheu cada tag semântica em p
 </body>
 
 </html>
+
+
+<!-- Exericio corrigido -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Exercício de Correção de Divs</title>
+</head>
+
+<body>
+
+  <div id="page-container">
+
+    <!-- O elemento <header> geralmente contém o título do documento e links de navegação. -->
+    <header id="top-section">
+      <h1 id="logo">Meu Site</h1> <!-- Use <h1> para títulos principais. -->
+      <!-- <nav> é usado para uma seção de navegação. -->
+      <nav id="navigation">
+        <ul>
+          <li class="nav-item">Home</li> <!-- Listas são geralmente mais apropriadas para navegação. -->
+          <li class="nav-item">Sobre</li>
+          <li class="nav-item">Contato</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- <section> é um container autônomo para conteúdo que deveria fazer sentido se fosse independentemente sindicalizado. -->
+      <section id="main-content">
+        <!-- <article> representa um post de blog ou notícia ou qualquer conteúdo único de uma página. -->
+        <article id="left-column">
+          <h2 class="title">Artigo 1</h2> <!-- Use <h2> para títulos de seções. -->
+          <p class="content">Este é o conteúdo do artigo 1.</p> <!-- <p> é usado para parágrafos. -->
+        </article>
+        <!-- <aside> é usado para conteúdo tangencialmente relacionado ao conteúdo ao seu redor. -->
+        <aside id="right-column">
+          <ul>
+            <li class="sidebar-item">Item 1</li>
+            <li class="sidebar-item">Item 2</li>
+          </ul>
+        </aside>
+      </section>
+    </main>
+
+    <!-- <footer> contém informações sobre seu conteúdo mais amplo, como seu autor, direitos autorais e links para documentos relacionados. -->
+    <footer id="bottom-section">
+      <p id="footer-text">Copyright 2023</p> <!-- <p> é adequado para texto geral. -->
+    </footer>
+
+  </div>
+
+</body>
+
+</html>
