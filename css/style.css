@@ -1,0 +1,13 @@
+header {
+  background-color: red;
+  height: 40px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  font-size: 24px;
+  color: white;
+}
