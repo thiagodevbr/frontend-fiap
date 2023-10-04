@@ -5,9 +5,10 @@
   --red-400: #ff6464;
 
   --blue-100: #edf7fa;
-  --blue-800: #142850;
+  --blue-800: #a8e13c;
 
   --white: #fff;
+  --radius: 4px;
 }
 
 * {
@@ -39,20 +40,20 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 900px;
-  margin: 0 auto;
-  margin-top: 100px;
+  max-width: 800px;
 }
 
 .apresentacao section {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  /* margin: topo direita baixo esquerda  */
 }
 
 .apresentacao section h1 {
   font-size: 40px;
   max-width: 400px;
+  color: var(--blue-800);
 }
 
 .apresentacao section p {
@@ -62,9 +63,16 @@ a {
 .apresentacao section button {
   height: 40px;
   width: 150px;
-  background-color: var(--red-400);
+  background-color: #a8e13c;
   color: var(--white);
   font-weight: bold;
   border: none;
   cursor: pointer;
+
+  border-radius: var(--radius);
+}
+
+.apresentacao img {
+  border: 3px solid black;
+  border-radius: 50%;
 }
