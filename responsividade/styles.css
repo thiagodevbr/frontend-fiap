@@ -1,0 +1,27 @@
+.nav-mobile {
+  display: none;
+}
+
+.responsividade {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.div-01 {
+  width: 300px;
+  height: 400px;
+  background-color: black;
+}
+
+.div-02 {
+  width: 300px;
+  height: 400px;
+  background-color: red;
+}
+
+.div-03 {
+  width: 300px;
+  height: 400px;
+  background-color: green;
+}
